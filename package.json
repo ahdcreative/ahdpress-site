@@ -1,0 +1,75 @@
+{
+  "name": "ahdpress-site",
+  "version": "1.0.0",
+  "description": "Promotional Website for AHDPress Theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "lint": "eslint **/*.{js,jsx,ts,tsx}",
+    "lint:fix": "eslint **/*.{js,jsx,ts,tsx} --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdreative/ahdpress-site.git"
+  },
+  "keywords": [
+    "ahdpress",
+    "tailwind",
+    "wordpress",
+    "theme"
+  ],
+  "author": {
+    "name": "Luca",
+    "email": "luca@ahd-creative.agency"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahdreative/ahdpress-site/issues"
+  },
+  "homepage": "https://github.com/ahdreative/ahdpress-site#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "github:fortawesome/react-fontawesome",
+    "@tabler/icons": "^2.47.0",
+    "gray-matter": "^4.0.3",
+    "next": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reading-time": "^1.5.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "swiper": "^11.0.7",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-tailwindcss": "^3.14.3",
+    "node-html-to-image": "^4.0.0",
+    "postcss": "^8.4.35",
+    "sass": "^1.71.1",
+    "tailwindcss": "^3.4.1",
+    "uuid": "^9.0.1"
+  },
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}
